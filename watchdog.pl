@@ -4,6 +4,8 @@ use warnings;
 use v5.10;
 use Date::Parse;
 
+our $VERSION = "0.00_00";
+
 sub dosomething {
     my ($pid, $pct) = @_;
     say "PID: $pid";
